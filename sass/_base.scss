@@ -1,0 +1,31 @@
+// COLOR VARIABLES
+$color-body: #555;
+$color-heading: #333;
+$color-primary: #e67e22;
+$color-primary-dark: #cf711f;
+$color-secondary: #fdf2e9;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: $color-body;
+}
+
+.section__hero {
+  background-color: $color-secondary;
+  padding: 4.8rem 0 9.6rem 0;
+}
